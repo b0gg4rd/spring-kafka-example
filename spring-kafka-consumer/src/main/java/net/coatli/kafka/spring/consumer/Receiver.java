@@ -1,4 +1,4 @@
-package net.coatli.kafka;
+package net.coatli.kafka.spring.consumer;
 
 import java.util.concurrent.CountDownLatch;
 

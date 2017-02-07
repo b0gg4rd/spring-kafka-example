@@ -1,4 +1,4 @@
-package net.coatli.kafka;
+package net.coatli.kafka.spring.producer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

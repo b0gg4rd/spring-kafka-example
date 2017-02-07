@@ -6,13 +6,5 @@ Spring Kafka Producer and Consumer Example.
 
 - JDK 1.8
 - Apache Maven 3.x
+- Confluent Plataform 3.1.2
 
-## Building
-
-The first time just use:
-
-`$ mvn -N io.takari:maven:wrapper`
-
-For execute use:
-
-`$ ./mvnw clean test`

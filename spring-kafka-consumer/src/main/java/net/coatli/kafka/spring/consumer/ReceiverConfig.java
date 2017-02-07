@@ -1,4 +1,4 @@
-package net.coatli.kafka.config;
+package net.coatli.kafka.spring.consumer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,7 +14,7 @@ import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
 
-import net.coatli.kafka.Receiver;
+import net.coatli.kafka.spring.consumer.Receiver;
 
 @Configuration
 @EnableKafka

@@ -1,4 +1,4 @@
-package net.coatli.kafka.config;
+package net.coatli.kafka.spring.producer;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +13,7 @@ import org.springframework.kafka.core.DefaultKafkaProducerFactory;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.core.ProducerFactory;
 
-import net.coatli.kafka.Sender;
+import net.coatli.kafka.spring.producer.Sender;
 
 @Configuration
 public class SenderConfig {
